@@ -1,0 +1,25 @@
+<script>
+	var soA = prompt('hãy nhập một số bất kì');
+	var soB = prompt('hãy nhập một số bất kì');
+	var soC = prompt('hãy nhập một số bất kì');
+	// ép chuỗi về số
+	soA= Number(soA);
+	soB= Number(soB);
+	soC= Number(soC);
+	console.log(soA)
+	if((soA + soB > soC) && (soA + soC > soB) && (soC + soB > soA)){
+		alert('là một hình tam giác');
+		var chuvi = (soA+soB+soC);
+		alert('chu vi tam giác = '+ chuvi );
+		var p = chuvi/2;
+		var dientich = Math.sqrt(p*(p - soA)*(p - soB)*(p - soC));
+		alert('dien tich tam giac = ' + dientich)
+	}
+	else{
+		alert('không là một hình tam giác');
+		console.log(soA)
+		console.log(soB)
+		console.log(soC)
+	}
+		
+</script>

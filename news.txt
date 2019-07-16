@@ -1,0 +1,71 @@
+<?php
+include_once('layout/head.php');
+include_once('layout/header.php'); 
+ ?>
+ <div class="tab">
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Home</a></li>
+				<li class="breadcrumb-item"><a href="#">Library</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Data</li>
+			</ol>
+		</nav>
+	</div>
+</div>
+<div class="container">
+	 <div class="row">
+	 	<div class="col-9 name-even">
+ 			<div class="date">
+				<small class="month">
+					november
+				</small>
+				<span >
+					20
+				</span>
+ 			</div>
+ 			<div class="name-news">
+				<h5 class="text-uppercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+ 			</div>
+ 			<div class="clear"></div>
+ 			<div class="img-news">
+ 				<img src="public/img/news/news1.png" alt="" class="img-fluid pt-4">
+ 			</div>
+	 		<div class="info pt-4">
+	 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nulla fugit, reiciendis, accusamus numquam nemo. Aliquam dolorem vel, ab enim quia assumenda quibusdam animi est non earum error, dolores sint.
+	 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit numquam iste dolor, aspernatur maiores harum repudiandae cumque nemo ex sapiente unde. Cum maiores, laboriosam nisi, saepe enim dolorum officiis totam!
+	 		</div>
+	 		<div class="author-news float-left mt-4">
+	 			<span><h5><i> <i class="fa fa-user" aria-hidden="true"></i> abcxyz__  <i class="fa fa-pencil-square-o" aria-hidden="true"></i> xx/xx/2019</i></h5></span>
+	 		</div>
+	 	</div>
+	 	<div class="col-3">
+	 		<h4 class="text-uppercase"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Tin t?c-S? ki?n</h4>
+	 		<div class="row title-news mt-3">
+ 				<h5 class="even">
+ 					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+ 				</h5>
+ 				<span class="mb-2"><h6><i class="fa fa-user" aria-hidden="true"></i> abcxyz__<i class="fa fa-pencil" aria-hidden="true"></i>xx/xx/2019</h6></span>
+ 				<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem minus, nihil odio cumque commodi quibusdam optio doloribus possimus neque, doloremque a earum nesciunt...</p>
+	 		</div>
+	 		<div class="row title-news mt-3">
+	 			<h5 class="even">
+	 				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+	 			</h5>
+	
+	 			<span class="mb-2 "><small><h6><i class="fa fa-user" aria-hidden="true"></i> abcxyz__<i class="fa fa-pencil" aria-hidden="true"></i>xx/xx/2019</span>
+	 			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem minus, nihil odio cumque commodi quibusdam optio doloribus possimus neque, doloremque a earum nesciunt...</p>
+	 		</div>
+	 		<div class="row title-news mt-3 mb-4">
+	 			<h5 class="even">
+	 				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+	 			</h5>
+	 			<span class="mb-2"><h6><i class="fa fa-user" aria-hidden="true"></i> abcxyz__<i class="fa fa-pencil" aria-hidden="true"></i>xx/xx/2019</span>
+	 			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem minus, nihil odio cumque commodi quibusdam optio doloribus possimus neque, doloremque a earum nesciunt...</p>
+	 		</div>
+	 		
+	 	</div>
+	 </div>
+</div>
+
+ <?php include_once('layout/footer.php') ?>

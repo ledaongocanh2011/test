@@ -1,0 +1,22 @@
+<script>
+	var soA = prompt('hãy nhập một số bất kì');
+	var soB = prompt('hãy nhập một số bất kì');
+	var soC = prompt('hãy nhập một số bất kì');
+	// ép chuỗi về số
+	soA= Number(soA);
+	soB= Number(soB);
+	soC= Number(soC);
+	var delta = soB*soB - (4*soA*soC);
+	if(delta > 0){
+		var x1 = (-soB + Math.sqrt(delta))/(2*soA);
+		var x2 = (-soB - Math.sqrt(delta))/(2*soA);
+		alert("phương trình có hai nghiệm phân biệt");
+		alert("x1 = " + x1);
+		alert("x2 = " + x2);
+	} else if(delta == 0){
+		var x = (-soB/(2*soA))
+		alert("x = " + x)
+	} else{
+		alert("phương trình vô nghiệm")
+	}
+</script>

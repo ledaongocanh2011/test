@@ -1,0 +1,74 @@
+
+<!-- <script>
+	var arr = [];
+	var ran = Math.round(Math.random()*100);
+	for(var i = 0;i< 10;i++){
+	arr.push(i)
+	}
+	console.log(arr);
+	for(var i=0;i<arr.length;i++){
+		console.log(arr[i]);
+	}
+</script> -->
+<script>
+	// var arr = [];
+	// var max=0;
+	// var max2= 0;
+	// for (var i=0;i<10;i++){
+	// var ran = Math.round(Math.random()*10);
+	// 	arr.push(ran);
+	// 	if(max< ran){
+	// 	max=ran;
+	// 	}
+	// 	arr.push(max)
+	// 	arr.pop(max);
+	// console.log(arr);
+	// }
+	// var ran = arr[i];
+	// for( var i=0;i<10;i++){
+	// 	if(max2< arr[i]){
+	// 		max2 = arr[i];
+	// 	}
+
+		
+	// }
+	// console.log(max2);
+	//tìm số lẻ trong 100 số được sắp xếp theo tứ tự
+	var mang = [];
+	for (var i =0; i < 100; i++) {
+		if (i%2 != 0) {
+			mang.push(i);//tìm được các phần tử số lẻ đưa chúng xuống cuối mảng
+		}
+	}
+	// đưa phần tử max xuống cuối mảng khai báo biến chạy một vòng for khác
+	var arr_max = [];
+	 // var max = mang[0];
+	for(var j = 0; j< mang.length;j++){
+		var ran = Math.round(Math.random()*100);
+		 // if (max < mang[j]) {
+		 	// đưa max1 xuống cuối mảng xóa phần tử max1 khỏi mảng 
+			max = mang.pop(j);
+			arr_max.push(max);
+			if (arr_max.length >= 2) {
+				// điều kiện nếu mảng lớn hơn thì kết thúc vòng lặp
+				break;
+			}
+		 // }
+	}
+	tong = 0;
+	for(var i = 0; i<arr_max.length;i++){
+		tong += arr_max[i];
+	}
+	console.log(tong);
+ </script>
+<!-- <script>
+	var arr=[];
+	var ran=Math.round(Math.random()*100);
+	for(var i=0;i<10;i++){
+		if(ran%2!=0){
+
+		}
+	}
+	console.log(ran)
+
+</script> --> 

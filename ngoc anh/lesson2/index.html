@@ -1,0 +1,17 @@
+<script>
+	var soA = prompt('mời bạn nhập số a');
+	var soB = prompt('mời bạn nhập só b');
+	var soC = prompt('mời bạn nhập số c');
+	soA = parseInt(soA);
+	soB = parseInt(soB);
+	soC = parseInt(soC);
+	if(soA+soB>soC&&soA+soC>soB&&soB+soC>soA){
+		alert('là một tam giác');
+	}
+	else{
+	    alert('không tồn tại tam giác');	
+	}
+	p=(soA+soB+soC);
+	alert(p);
+	alert(Math.sqrt(p*(p-soA)*(p-soB)*(p-soC)));
+</script>
